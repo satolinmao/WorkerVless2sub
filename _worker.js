@@ -24,12 +24,12 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://2999a301.cf-workers-text2kv-9d2.pages.dev/iptxt.txt?token=222636910', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	/'https://2999a301.cf-workers-text2kv-9d2.pages.dev/iptxt.txt?token=222636910', //iptest测速结果文件。
+	/https://2999a301.cf-workers-text2kv-9d2.pages.dev/iptxt.txt?token=222636910&b64=MTYyLjE1OS41OC4yMDQ6NDQzI+S8mOmAiQ0KMTcyLjY0LjIyOS4xMTo0NDMj5LyY6YCJDQoxMDQuMjAuMjMuMTM2OjQ0MyPkvJjpgIkNCjEwNC4yMC4xNi40OjQ0MyPkvJjpgIkNCjE3Mi42NS4yMjQuMTg3OjQ0MyPkvJjpgIkNCjEwNC4yMC4zMC4xNzI6NDQzI+S8mOmAiQ0KMTA0LjIwLjI1LjIyNTo0NDMj5LyY6YCJDQoxMDQuMjAuMjkuMjE0OjQ0MyPkvJjpgIkNCjEwNC4yMC4yNC4xNzQ6NDQzI+S8mOmAiQ0KMTA0LjIwLjMxLjIyNzo0NDMj5LyY6YCJ', //iptest测速结果文件。
 ];
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
